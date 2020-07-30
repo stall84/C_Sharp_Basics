@@ -1,6 +1,7 @@
 ﻿using System;
 using C_Sharp_Practice_1.Math;
 
+
 namespace C_Sharp_Practice_1
 {
     class MainClass
@@ -9,12 +10,14 @@ namespace C_Sharp_Practice_1
         {
 
 
-            Person John = new Person();
+            Person james = new Person();
 
-            John.FirstName = "Johnny";
-            John.LastName = "Smithers";
+            james.FirstName = "James";
+            james.LastName = "Stallings";
 
-            John.Introduce();
+            james.Introduce();
+
+            var newName = new Strings();
 
             Calculator calculator = new Calculator();
 
@@ -26,7 +29,11 @@ namespace C_Sharp_Practice_1
 
             var namesArr = new string[4] { "Thomas", "Scott", "David", "Mike" };
 
-
+            // Using format strings to create a 'complex' string:
+            string firstName = "Taboolah";
+            string lastName = "Pastaman";
+            string fullName = string.Format("{0} {1}", firstName, lastName);
+            Console.WriteLine(fullName);
 
             var flags = new bool[3];
             flags[1] = true;
@@ -39,6 +46,8 @@ namespace C_Sharp_Practice_1
             Console.WriteLine("Third name is: " + namesArr[2]);
 
             Console.WriteLine("Answer is: " + answer);
+
+         
 
            
         }
