@@ -1,12 +1,17 @@
 ﻿using System;
 
+
 namespace C_Sharp_2
 {
     class MainClass
     {
         public static void Main(string[] args)
         {
-            RandomString();
+
+            ArraysAdvanced.JaggedArr();
+            //ArraysAdvanced.ThreeDArr();    
+            //ArraysAdvanced.MultiDimArrayer();
+            //RandomString();
            
 
         }
