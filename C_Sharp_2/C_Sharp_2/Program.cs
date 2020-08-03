@@ -8,7 +8,8 @@ namespace C_Sharp_2
         public static void Main(string[] args)
         {
 
-            ArraysAdvanced.JaggedArr();
+            ArraysAdvanced.ArrayMethods();
+            //ArraysAdvanced.JaggedArr();
             //ArraysAdvanced.ThreeDArr();    
             //ArraysAdvanced.MultiDimArrayer();
             //RandomString();

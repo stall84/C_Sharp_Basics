@@ -3,8 +3,8 @@ namespace C_Sharp_2
 {
     public class ArraysAdvanced
     {
-        
-        
+
+        public static int[] numbers = new int[] { 15, 22, 98, 51, 52, 29 };
 
         public static void Arrayer ()
         {
@@ -60,9 +60,20 @@ namespace C_Sharp_2
             jaggedArray[2] = new int[3] { 0, 1, 2, };
 
             // Access values in same way i.e.:
-            Console.WriteLine("jaggedArr log: " + jaggedArray[2][1]);
+            Console.WriteLine("jaggedArr log: " + jaggedArray[1][3]);  // Should yield 3
 
 
+        }
+
+        public static void ArrayMethods ()
+        {
+            // Length (Technically a Property): Returns integer number of elements in the array
+            Console.WriteLine("Length of numbers array: " + numbers.Length);
+
+            // IndexOf Method: Usually used to locate object/elements in the array and return their index (integer)
+            // Methods have to be called on the Array Class, passing the array you want to work on in as parameter/overloadIndexOf will return an integer.
+            var numIndex = Array.IndexOf(numbers, 98);
+            Console.WriteLine("Index of 98: " + numIndex);
         }
     }
 }
