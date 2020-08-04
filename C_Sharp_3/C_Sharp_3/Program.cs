@@ -11,8 +11,8 @@ namespace C_Sharp_3
         public static void Main(string[] args)
         {
 
-            Exercises_3.Problem2();
-
+            //Exercises_3.Problem2();
+            Exercises_3.Problem3();
 
             
             //Lists.Remover();
