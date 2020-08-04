@@ -13,7 +13,7 @@ namespace C_Sharp_3
 
         public static List<int> numberNew = new List<int>() { 2, 4, 6, 8, 10 };
 
-        public static List<int> numberList = new List<int> { 2, 4, 8, 10, 12, 14, 8, 16 };
+        public static List<int> numberList = new List<int>() { 2, 4, 8, 10, 12, 14, 8, 16 };
 
 
 
