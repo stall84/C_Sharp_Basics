@@ -53,14 +53,15 @@ namespace C_Sharp_3
 
                 numbers.Add(number);
                 numbers.Sort();
-                foreach(var num in numbers)
-                {
-                    Console.WriteLine(num);
-                }
+                
 
             }
+            foreach (var num in numbers)
+            {
+                Console.WriteLine(num);
+            }
 
-            
+
         }
 
 
